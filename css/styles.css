@@ -209,11 +209,11 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #0dcaf0;
   text-decoration: underline;
 }
 a:hover {
-  color: #974a2d;
+  color: #0a90ab;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -579,6 +579,22 @@ progress {
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
+  height: auto;
+}
+.img-interests {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 2px solid #0dcaf0;
+  border-radius: 0.25rem;
+  max-width: 20%;
+  height: auto;
+}
+.img-interests-long {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 2px solid #0dcaf0;
+  border-radius: 0.25rem;
+  max-width: 25%;
   height: auto;
 }
 
@@ -3852,7 +3868,8 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #bd5d38;
+  color: #0dcaf0;
+  ;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -7376,7 +7393,7 @@ textarea.form-control-lg {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #0d73f0 !important;
 }
 
 .text-black-50 {
@@ -10909,8 +10926,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 18rem;
+    max-height: 18rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
